@@ -35,9 +35,14 @@ header{
     display: flex;
     flex-direction: row;
     list-style: none;
-    color: white;
 }
-
+.flex-li-header a{
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
 .btn-header{
     background-color: white;
     border-radius: 30px;
@@ -76,6 +81,7 @@ h1{
 }
 
 .btn-hero-white{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
     background-color: white;
     border-radius: 30px;
     padding: 10px;
@@ -245,8 +251,11 @@ footer{
 
 .footer-list{
     list-style: none;
-    color: white;
     line-height: 40px;
+}
+.footer-list a{
+    color: white;
+    text-decoration: none;
 }
 .footer-end{
     padding-top: 20px;
@@ -273,4 +282,7 @@ footer{
 .wave-rotate svg{
     color: #F6F6F6;
     transform: rotate(180deg);
+}
+.footer-link:hover{
+    text-decoration: underline;
 }
