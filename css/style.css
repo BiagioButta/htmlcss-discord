@@ -266,3 +266,11 @@ footer{
     color: white;
     padding-right: 10px;
 }
+.wave svg{
+    color: #F6F6F6;
+    display: block;
+}
+.wave-rotate svg{
+    color: #F6F6F6;
+    transform: rotate(180deg);
+}
